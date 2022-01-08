@@ -1,10 +1,10 @@
 ---
-description: The Limb family website.
-title: 'Welcome to the Limb family website :100:'
+description: This is a demo of the Congo theme for Hugo.
+title: 'Welcome to Congo! :tada:'
 ---
 
 {{< lead >}}
-A place to find the Limbs.
+A simple, lightweight theme for Hugo built with Tailwind CSS.
 {{< /lead >}}
 
 <div class="flex px-4 py-2 mb-8 text-base rounded-md bg-primary-100 dark:bg-primary-900">
