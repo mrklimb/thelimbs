@@ -6,15 +6,15 @@
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
 colorScheme = "congo"
-# darkMode = "auto"
-# darkToggle = false
+darkMode = "auto"
+darkToggle = true
 # logo = "img/logo.jpg"
-# description = "My awesome website"
+description = "The Limb family website"
 # mainSections = ["section1", "section2"]
 # robots = ""
 
 [homepage]
-  layout = "page" # valid options: page, profile, custom
+  layout = "profile" # valid options: page, profile, custom
   showRecent = false
 
 [article]
