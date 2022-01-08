@@ -1,0 +1,4 @@
+baseURL: http://thelimbs.org/
+languageCode: en-us
+title: The Limb family website
+theme: hugo-theme-dimension
