@@ -1,17 +1,12 @@
 [build]
-command = 'hugo'
-publish = 'public'
+  command = "hugo mod get -u && hugo --gc --minify -b $URL"
+  publish = "public"
+
 [build.environment]
-HUGO_VERSION = '0.91.2'
+  NODE_ENV = "production"
+  GO_VERSION = "1.16"
+  TZ = "AEST"  # Set to preferred timezone
 
-
-[context]
-[context.branch-deploy]
-command = 'hugo -F -b $DEPLOY_PRIME_URL'
-
-[context.deploy-preview]
-command = 'hugo -F -b $DEPLOY_PRIME_URL'
-
-[context.production]
 [context.production.environment]
-HUGO_ENV = 'production'
+  HUGO_VERSION = "0.87.0"
+  HUGO_ENV = "production"
