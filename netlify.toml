@@ -1,6 +1,7 @@
 [build]
   command = "hugo --gc --minify -b $URL"
   publish = "public"
+  ignoreErrors = ["error-remote-getjson"]
 
 [build.environment]
   NODE_ENV = "production"
