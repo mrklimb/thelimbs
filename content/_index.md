@@ -1,6 +1,6 @@
 ---
-description: This is a demo of the Congo theme for Hugo.
-title: 'Welcome to the Limb's family website :100:'
+description: The Limb family website.
+title: 'Welcome to the Limb family website :100:'
 ---
 
 {{< lead >}}
