@@ -5,9 +5,8 @@ title: Limb central
 enableEmoji: yes
 summaryLength: 0
 author: 
-  bio: 'This is an example author bio, and although there''s a stock photo of a dog
-    here, this article was actually created by a human. :dog:'
-  image: img/author.jpg
+  bio: 'We are the Limbs from Brisbane, Australia'
+  image: img/limbs.jpg
   links:
     #- twitter: https://twitter.com/
     #- facebook: https://facebook.com/
@@ -38,14 +37,13 @@ menu:
       pageRef: michelle
       weight: 20
     - name: Matthew
-      pageRef: users
+      pageRef: matthew
       weight: 30
     - name: Andy
-      pageRef: tags
+      pageRef: andy
       weight: 40
-    - name: GitHub
-      url: https://github.com/jpanther/congo
-      weight: 50
+# Can insert tags here too using the pageRef: tags
+
 markup:
   goldmark:
     renderer:

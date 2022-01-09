@@ -3,14 +3,16 @@ cascade:
   showAuthor: false
   showDate: false
 description: Learn how to use Congo and its features.
-title: Michelle Limb
+title: Matthew Limb
+tags:
+- matthew
 ---
 
 {{< lead >}}
-Michelle's homepage.
+Matthew's homepage.
 {{< /lead >}}
 
-{{< figure src="Michelle.jpg" >}}
+{{< figure src="matthew.jpg" >}}
 
 
 ---
