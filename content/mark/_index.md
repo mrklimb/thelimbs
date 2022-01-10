@@ -1,16 +1,11 @@
 ---
-cascade:
+ccascade:
   showAuthor: false
   showDate: false
-  showEdit: false
-  showReadingTime: false
-  showPagination: false
-  slug: mark
-description: Mark Limb's page.
+description: Home page for Mark
 title: Mark Limb
-date: "2022-01-10"
 tags:
-- mark
+- Mark
 ---
 
 {{< lead >}}
